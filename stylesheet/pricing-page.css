@@ -1,0 +1,72 @@
+main{
+  margin: 0px;
+  font-family: montserrat;
+}
+
+.pricing-page-bg{
+  background-color: rgba(0, 0, 0, 0.586);
+  background-image: url('../images/Pricing\ Background.jpg');
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1280px;
+  margin-top: 75px;
+}
+
+.service-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 180px;
+  padding: 280px 0px;
+  column-gap: 30px;
+}
+.service-container{
+  position: relative;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 15px;
+  width: 360px;
+  height: 550px;
+  padding: 20px;
+}
+
+.service-title{
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-price{
+  font-style: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-description{
+  font-size: 20px;
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 80px;
+}
+.button{
+  position: absolute;
+  bottom: 80px;
+  left: 105px;
+}
+.service-button{
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: #fcb924;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}

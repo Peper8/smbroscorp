@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="stylesheet/general.css">
+  <link rel="stylesheet" href="stylesheet/page-style.css">
+  <link rel="stylesheet" href="stylesheet/header.css">
+  <link rel="stylesheet" href="stylesheet/footer.css">
+  <link rel="stylesheet" href="stylesheet/gallery.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <main>
+
+    <!-- HEADER SECTION -->
+
+    <header class="header">
+      <img class="logo" src="images/Logo.png" alt="logo">
+
+      <nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us-page.html">About Us</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjqnYVyvz5RjuUyizSUvYcdAod_iQ5gxqQmR9DziCpvTKZWg/viewform" target="_blank"><button class="cta-button">GET A QUOTE</button></a>
+    </header>
+
+    <!--GALLERY SECTION-->
+
+    <div class="full-img" id="fullImageBox">
+      <img src="images/backhoe-and bulldozer.jpg" id="fullImage">
+      <span onclick="closeFullImage()">X</span>
+    </div>
+
+    <div class="image-gallery">
+      <img src="images/backhoe-and bulldozer.jpg" onclick="openFullImage(this.src)">
+      <img src="images/backhoe-on-top-of-vibro-sand-1.jpg" onclick="openFullImage(this.src)">
+      <img src="images/backhoe-on-top-of-vibro-sand.jpg" onclick="openFullImage(this.src)">
+      <img src="images/backhoe-unloading-vibro-sand.jpg" onclick="openFullImage(this.src)">
+      <img src="images/backhoe-vibro-sand.jpg" onclick="openFullImage(this.src)">
+      <img src="images/bulldozer-loading-vibro-sand.jpg" onclick="openFullImage(this.src)">
+      <img src="images/bulldozer.jpeg" onclick="openFullImage(this.src)">
+      <img src="images/bulldozer.jpg" onclick="openFullImage(this.src)">
+      <img src="images/dump-truck-full-of-vibro-sand.jpg" onclick="openFullImage(this.src)">
+      <img src="images/quary-operation-loading-sand.jpeg" onclick="openFullImage(this.src)">
+      <img src="images/quary-operations.jpeg" onclick="openFullImage(this.src)">
+      <img src="images/truck-carrying-vibro-sand.jpg" onclick="openFullImage(this.src)">
+      <img src="images/truck-loading-vibro-sand.jpeg" onclick="openFullImage(this.src)">
+      <img src="images/truck-transporting-vibro-sand-1.jpg" onclick="openFullImage(this.src)">
+      <img src="images/vibro-sand-1.jpg" onclick="openFullImage(this.src)">
+      <img src="images/vibro-sand-site.jpg" onclick="openFullImage(this.src)">
+      <img src="images/vibro-sand-supply.jpg" onclick="openFullImage(this.src)">
+      <img src="images/vibro-sand.jpg" onclick="openFullImage(this.src)">
+    </div>
+
+  </main>
+
+  <script src="/gallery-script.js"></script>
+  
+</body>
+</html>
